@@ -1,7 +1,6 @@
 apiVersion: accelerator.tanzu.vmware.com/v1alpha1
 kind: Accelerator
 metadata:
-  # single word or recommend a free form string?
   name: "knative-function"
 spec:
   displayName: Spring Cloud Function Serverless JVM/Native App on Knative
