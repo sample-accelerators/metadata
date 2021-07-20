@@ -3,8 +3,8 @@ kind: Accelerator
 metadata:
   name: "knative-function"
 spec:
-  displayName: Spring Cloud Function Serverless JVM/Native App on Knative
-  description: A simple Spring Cloud Function-based serverless app with JVM/Native Image Compilation
+  displayName: Spring Cloud Function App for Knative
+  description: A simple Spring Cloud Function-based serverless app with JVM/Native image compilation for deploying on Knative/Cloud Native Runtime
   iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-cloud.png
   tags:
     - spring
