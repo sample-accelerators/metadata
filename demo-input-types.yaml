@@ -1,0 +1,9 @@
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: demo-input-types
+spec:
+  git:
+    url: https://github.com/sample-accelerators/demo-input-types
+    ref:
+      branch: main
