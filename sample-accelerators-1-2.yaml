@@ -142,3 +142,42 @@ spec:
     ref:
       branch: main
       tag: tap-1.2
+---
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Fragment
+metadata:
+  name: tap-initialize
+spec:
+  displayName: TAP Initialize
+  git:
+    ref:
+      branch: main
+      tag: tap-1.2
+    url: https://github.com/sample-accelerators/fragments.git
+    subPath: tap-initialize
+---
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Fragment
+metadata:
+  name: java-version
+spec:
+  displayName: Select Java Version
+  git:
+    ref:
+      branch: main
+      tag: tap-1.2
+    url: https://github.com/sample-accelerators/fragments.git
+    subPath: java-version
+---
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Fragment
+metadata:
+  name: live-update
+spec:
+  displayName: Select Java Version
+  git:
+    ref:
+      branch: main
+      tag: tap-1.2
+    url: https://github.com/sample-accelerators/fragments.git
+    subPath: live-update
