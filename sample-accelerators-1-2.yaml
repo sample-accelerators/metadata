@@ -174,7 +174,7 @@ kind: Fragment
 metadata:
   name: live-update
 spec:
-  displayName: Select Java Version
+  displayName: Live Update
   git:
     ref:
       branch: main
